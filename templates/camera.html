@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="Style.css">
+    <title>Geotag</title>
+</head>
+<body>
+    <style>
+        .adjust-section {
+  margin-top: 60px; /* Adjust this value as needed to provide space below the navbar */
+}
+    </style>
+ <div class="wrapper">
+    <nav class="nav">
+        <div class="nav-logo">
+            <img src="geotag.jpg">
+        </div>
+        <div class="nav-menu" id="navMenu">
+            <ul>
+                <li><a href="index.html" class="link">Home</a></li>
+                <li><a href="police.html" class="link">Police</a></li>
+                <li><a href="camera.html" class="link active">Camera </a></li>
+                <li><a href="about.html" class="link">About</a></li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <button class="btn white-btn" id="loginBtn" onclick="login()">Sign In</button>
+            <button class="btn" id="registerBtn" onclick="register()">Sign Up</button>
+        </div>
+        <div class="nav-menu-btn">
+            <i class="bx bx-menu" onclick="myMenuFunction()"></i>
+        </div>
+    </nav>
+ 
+
+
+<div id ="camera" class = "adjust-section">
+    <div class="wrapp">
+        <div class="title">
+          Camera Registration
+        </div>
+        <div class="form">
+            <div class="input-box">
+                <input type="text" class="input-field" placeholder="Camera name">
+                <i class="bx bx-camera"></i>
+            </div>
+            <div class="input-box">
+                <input type="text" class="input-field" placeholder="Camera Type">
+                <i class="bx bx-camera"></i>
+            </div>
+            <div class="input-box">
+                <input type="text" class="input-field" placeholder="Camera Model">
+                <i class="bx bx-camera"></i>
+            </div>
+            <div class="input-box">
+                <input type="text" class="input-field" placeholder="Camera Specs">
+                <i class="bx bx-camera "></i>
+            </div>
+            <div class="input-box">
+                <input type="text" class="input-field" placeholder="Location Co-ordinate">
+                <i class="bx bx-map"></i>
+            </div>
+            <div class="input-box">
+                <input type="text" class="input-field" placeholder="Address">
+                <i class="bx bx-map"></i>
+            </div>
+            <div class="input-box">
+                <input type="text" class="input-field" placeholder="Visibility Range">
+                <i class="bx bxs-show"></i>
+            </div>
+          
+          <div class="inputfield">
+            <input type="submit" value="Submit" class="btn">
+          </div>
+          </div> 
+    </div> 
+</div>
+</body>
+</html>
